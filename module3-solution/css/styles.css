@@ -1,1 +1,67 @@
+#chickenSection, #beefSection, #sushiSection{
+	background-color: #72BD84;
+	padding: 10px;
+	height: 1000px;
+	margin-bottom: 10px;
+}
 
+#header-nav{
+	background-color: #B2E1BD;
+	margin-bottom: -10px;
+	/*position: static;*/
+}
+body{
+	background-color: #B7E9E5;
+	padding-top: 70px;
+
+}
+  
+.col-xs-12{
+	margin-right: 10px;
+
+}
+#nav-list{
+	background-color: #E4E9E5;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.menuItem{
+	border-bottom: 1px solid black;
+	margin-top: -10px;
+	margin-bottom: -25px;
+}
+.menuItem.sushi{
+	margin-bottom: -100px;
+}
+
+@media (max-width: 767px) {
+  
+  /*#chickenSection, #beefSection, #sushiSection{
+  	width: 50%;
+  	margin-left: 1px;
+  	margin-right: 1px;
+  	align: center;
+
+  }*/
+
+}
+@media (max-width: 766px) {	
+
+	#chickenSection, #beefSection, #sushiSection { 
+	width: 90%;
+  	margin-left: 30px;
+  	margin-right: 1px;
+  	align: center;
+
+}
+
+#chickenSection, #beefSection, #sushiSection{
+	margin-right: 100px;
+
+.menuItem{
+	border-bottom: 1px solid black;
+	margin-top: -10px;
+	margin-bottom: -25px;
+}
+}
